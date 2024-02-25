@@ -1,5 +1,4 @@
 import Image from "next/image"
-import fallBackImage from "@/public/project.png"
 
 import { Metadata } from "next"
 import { PortableText } from "@portabletext/react"
@@ -31,13 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${post.title}` ,
-    metadataBase: new URL(`https://zimscholarstrust.ac.zw/news/${post.slug}`),
+    metadataBase: new URL(`https://zimscholarstrust.vercel.app/news/${post.slug}`),
     description: "Zim Scholars Trust Post",
     keywords: post.category,
     openGraph: {
       images:
         (post.image),
-      url: `https://zimscholarstrust.ac.zw/news/${post.slug}`,
+      url: `https://zimscholarstrust.vercel.app/news/${post.slug}`,
       title: post.title,
       description: "Zim Scholars Trust Post",
       type: "article",
@@ -76,7 +75,7 @@ export default async function page({ params }: Props){
             <PopoverContent className="justify-center">
               Share the Post.
               <ShareCard 
-                url={'https://zimscholarstrust.ac.zw/news/${post.slug}'}
+                url={'https://zimscholarstrust.vercel.app/news/${post.slug}'}
                 quote={post.title} 
               />
             </PopoverContent>

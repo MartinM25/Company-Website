@@ -1,6 +1,8 @@
 import Filters from "@/components/Filters";
 import PostCard from "@/components/PostCard";
+
 import { getPosts } from "@/sanity/actions";
+
 
 export const revalidate = 10;
 
@@ -9,6 +11,7 @@ interface Props {
 }
 
 const Page = async ({ searchParams }: Props) => {
+
 
   const posts = await getPosts({
     query: '',
