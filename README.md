@@ -1,4 +1,4 @@
-# Company Website with Blog Functionality
+# Company Website with a CMS
 
 Welcome to our company website with built-in blog functionality! This website is developed using Next.js, Tailwind CSS, Shadcn, and Sanity. It serves as a platform for showcasing company news and blog posts, along with providing contact information for users.
 
