@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Company Website with Blog Functionality
+
+Welcome to our company website with built-in blog functionality! This website is developed using Next.js, Tailwind CSS, Shadcn, and Sanity. It serves as a platform for showcasing company news and blog posts, along with providing contact information for users.
+
+## Features
+
+- **Company News/Blog:** Create, update, and delete news and blog posts related to the company.
+- **Search and Filter:** Easily search and filter news/blog posts for quick access to relevant information.
+- **Sanity Studio Integration:** Utilize Sanity Studio to manage and administer news/blog content efficiently.
+- **Contact Form:** Connect with us through the contact form for inquiries or collaborations.
+
+## Technologies Used
+
+- **Frontend:**
+  - Next.js
+  - Tailwind CSS
+  - Shadcn
+
+- **Backend:**
+  - Sanity
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+
 
 ## Getting Started
 
